@@ -26,7 +26,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 2%;
-  height: 50px;
+  height: 8vh;
   background: linear-gradient(rgba(135, 206, 235, 0.7), rgba(128, 128, 128, 0.7)), url("https://png.pngtree.com/thumb_back/fh260/background/20201028/pngtree-abstract-technology-background-background-3d-grid-cyber-technology-ai-tech-wire-image_441377.jpg");
   border-style: solid;
   border-width: medium;
@@ -67,8 +67,8 @@ footer {
 #left-pane{
   justify-self: left;
   background-color: black;
-  padding: 30px;
-  width: 120%;
+  padding: 5%;
+  width: 100%;
   height: 75vh;
   border-style: solid;
   border-width: medium;
@@ -86,7 +86,7 @@ footer {
 
 #middle-pane{
   background-color: black;
-  padding: 30px;
+  padding: 5%;
   width: 200px;
   height: 75vh;
   border-style: solid;
@@ -97,9 +97,10 @@ footer {
 
 #right-pane{
   background-color: black;
-  padding: 30px;
+  padding: 5%;
   border: 1px solid #ccc;
   width: 100%;
+  max-width: 100%;
   height: 75vh;
   border-style: solid;
   border-width: medium;
@@ -150,11 +151,11 @@ footer {
 }
 
 .socials a {
-  margin-right: 10px;
+  margin-right: 1vw;
 }
 
 .socials img {
-  width: 30px;
+  width: 2vw;
   height: auto;
 }
 
@@ -184,4 +185,27 @@ footer {
 #left-pane {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #logo1, #title, #logo2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .socials {
+    flex-direction: column;
+    text-align: center;
+  }
 }
