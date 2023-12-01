@@ -7,7 +7,7 @@ function updateRightPane(contentType) {
   // Update content based on the button clicked
   switch (contentType) {
     case 'Content for PDF':
-      rightPane.innerHTML = '<div id = "pdf-container"><a href="/Resume/Resume.pdf" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/017/197/488/original/pdf-icon-on-transparent-background-free-png.png" alt="PDF" style="height:150px; width:auto; display:block;"><span class = "text" style="text-align: center; margin-top: 5px;">Click here for Resume</span></a></div>';
+      rightPane.innerHTML = '<div id = "pdf-container"><a href="https://pikminfire.github.io/Resume/Resume.pdf" target="_blank"><img src="https://static.vecteezy.com/system/resources/previews/017/197/488/original/pdf-icon-on-transparent-background-free-png.png" alt="PDF" style="height:150px; width:auto; display:block;"><span class = "text" style="text-align: center; margin-top: 5px;">Click here for Resume</span></a></div>';
       break;
     case 'Content for Education':
       rightPane.innerHTML = '<div id = "eduction"><h1 class = "text"><u>Education</u></h1><h3 class= "text">Sourthern Arkansas Univeristy</h3><p class = "text">August 2020 – May 2024</p><ul><li class = "text">Bachelor of Science: Computer Science, Bachelor of Mathematics</li><li class = "text">3.79 GPA</li><li class = "text">Planned Graduation in 2024</li></ul></div>';
