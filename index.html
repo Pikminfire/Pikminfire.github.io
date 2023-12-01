@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Matthew Gatlin</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div id = "logo1">
+      <img src = "https://web.saumag.edu/greek/files/2016/12/main_logo.png">
+    </div>
+    <div id = "title">
+      <h1 class = "text">Matthew Gatlin Resume Site</h1>
+    </div>
+    <div id = "logo2">
+      <img src = "https://www.rmec.com/images/willie-wirehand.png" style="height:150px;">
+    </div>
+  </header>
+  
+  <div class = "grid-container">
+    <div id = "left-pane">
+      <h1 class = "text">About Me</h1>
+      <p class = "text">Hi my name is Matthew Gatlin and I am someone looking to get into the IT field. I am a graduate from Souther Arkansas University with a bachelors in both Computer Science as well as Mathmatics. I have had work experiece prior as an intern at Arkansas Electric Cooperative Corperation. I have experience in general Help Desk abilities as well as a variety of programming languages.</p>
+      <p class = "text">I wanted to try and display some of my skills by creating this website from scratch using html, CSS, and javascript. I tried utilizing many different things such as buttons, images, links, and CSS grids.</p>
+      <p class = "text">If you use the buttons to the right you can change what is displayed in the right panel.</p>
+    </div>
+    <div id = "middle-pane">
+      <button class="button button1" onclick="updateRightPane('Content for PDF')">PDF Resume</button>
+      <button class="button button2" onclick="updateRightPane('Content for Education')">Education</button>
+      <button class="button button2" onclick="updateRightPane('Content for Work Experience')">Work Experience</button>
+      <button class="button button2" onclick="updateRightPane('Content for Skills')">Skills</button>
+    </div>
+    <div id = "right-pane">
+      
+    </div>
+  </div>
+  <div id = "footer-container">
+    <footer>
+      <div class = "socials">
+        <a href="https://twitter.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" alt="Twitter"><span>Twitter</span>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png?20140125013055" alt="LinkedIn"><span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/Pikminfire" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"><span>GitHub</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
